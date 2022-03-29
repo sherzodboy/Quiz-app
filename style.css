@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+   box-sizing: border-box;
+}
+body {
+   margin: 0;
+   font-family: 'Roboto Condensed', sans-serif;
+   font-weight: bold;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #b8c6db;
+}
+.quiz-container {
+   background-color: #fff;
+   border-radius: 10px;
+   width: 600px;
+   overflow: hidden;
+}
+.quiz-header {
+   padding: 4rem;
+}
+h2 {
+   padding: 1rem;
+   text-align: center;
+   margin: 0;
+}
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+ul li {
+   font-size: 1.3rem;
+   margin: 1rem;
+}
+ul li label {
+   cursor: pointer;
+}
+button {
+   background-color: purple;
+   color: #fff;
+   font-weight: 900;
+   display: block;
+   width: 100%;
+   cursor: pointer;
+   border: none;
+   font-size: 1.1rem;
+   padding: 1rem;
+}
+button:active {
+   transform: scale(0.98);
+}
